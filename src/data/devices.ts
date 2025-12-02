@@ -24,6 +24,13 @@ export const devicesData: DeviceCategory = {
 			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
 			link: "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/",
 		},
+		{
+			name: "OPPO Pad",
+			image: "/images/device/opad.webp",
+			specs: "Blue / 8G + 256GB",
+			description: "No Flagship performance, No Hasselblad imaging, 33W SuperVOOC.",
+			link: "https://www.oppo.com/cn/accessories/oppo-pad/",
+		},
 	],
 	Router: [
 		{
