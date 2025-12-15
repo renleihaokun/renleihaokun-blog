@@ -32,7 +32,7 @@ permalink: "Gemini student"
 
 ---
 
-#  第二步：SheerID 认证（拒绝奸商）
+#  第二步：SheerID 认证
 
 接下来是认证 SheerID 环节，然后就出现**奸商**了：  
 
