@@ -1,18 +1,17 @@
 ---
-title: Markdown Tutorial
-published: 2025-01-20
-pinned: true
-description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging]
-category: Examples
+title: Gemini学生认证
+published: 2025-12-15
+pinned: false
+description: 对Gemini学生认证的吐槽
+tags: [Gemini, sheerid]
+category: roast
 licenseName: "Unlicensed"
-author: emn178
-sourceLink: "https://github.com/emn178/markdown"
+author: renleihaokun
 draft: false
-date: 2025-01-20
-image: "./cover.png"
-pubDate: 2025-01-20
-permalink: "encrypted-example"
+date: 2025-12-15
+image: "./gemini page.png"
+pubDate: 2025-12-15
+permalink: "Gemini student"
 ---
 # 真逆天吧，Gemini学生认证全是信息差
 
@@ -37,12 +36,12 @@ permalink: "encrypted-example"
 接下来是认证 SheerID 环节，然后就出现**奸商**了：
 !奸商的小店的截图 [fake page.png](你的截图链接)
 
-**这年头信息差真好挣钱！** 😡
+**这年头信息差真好挣钱！** 
 机器人认证 SheerID 能卖你 **39**，还不一定是多好的网络环境。
 有这钱加顿早餐钱去吃顿 **疯狂星期四** 不好吗？
 
 ✅ **免费方案（本人一把过）：**
-免费机器人很好用，地址在这 👉 https://batch.1key.me/
+免费机器人很好用，地址在这  https://batch.1key.me/
 
 ---
 
