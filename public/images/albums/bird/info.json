@@ -1,0 +1,14 @@
+{
+  "mode": "external",
+  "title": "鸟图",
+  "description": "嘻嘻，是鸟",
+  "location": "地球",
+  "tags": ["鸟", "景"],
+  "layout": "masonry",
+  "columns": 3】
+  "photos": [
+    {
+      "src": "https://example.com/photo1.jpg",
+      "alt": "图片描述"
+    }
+}
