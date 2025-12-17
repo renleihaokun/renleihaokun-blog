@@ -17,6 +17,6 @@ permalink: "Albums_Navigation"
 
 ## 鸟  
 *鸟人往这走*  
-[^https://blog.rlhk.dpdns.org/albums/bird]  
+https://blog.rlhk.dpdns.org/albums/bird  
 ![IMG_4313-已增强-NR.webp](https://c147721a.kunblog--cloudflare-imgbed.pages.dev/file/1765952777509_IMG_4313-已增强-NR.webp)  
 
