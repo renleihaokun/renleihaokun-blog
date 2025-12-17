@@ -5,7 +5,7 @@ pinned: false
 description: 对Gemini学生认证的吐槽
 tags: [Gemini, sheerid]
 category: roast
-licenseName: "Unlicensed"
+licenseName: "CC BY 4.0"
 author: renleihaokun
 draft: false
 date: 2025-12-15
