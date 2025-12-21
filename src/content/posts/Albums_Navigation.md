@@ -17,14 +17,19 @@ permalink: "Albums_Navigation"
 
 ## 鸟  
 <a href="/albums/bird">*鸟人往这走* </a>
-![IMG_4313-已增强-NR.webp](https://c147721a.kunblog--cloudflare-imgbed.pages.dev/file/1765952777509_IMG_4313-已增强-NR.webp)  
+![IMG_4313-已增强-NR.webp](https://imgbed.haokun.me/file/1765952777509_IMG_4313-已增强-NR.webp)  
 
 ## 风光·苏州
   
 <a href="/albums/Scene_SuZhou">*苏州，是家*</a>
-![1765979896474.webp](https://c147721a.kunblog--cloudflare-imgbed.pages.dev/file/苏州/1765980585733_1765979896474.webp)
+![1765979896474.webp](https://imgbed.haokun.me/file/苏州/1765980585733_1765979896474.webp)
 
 ## 风光·日本
   
 <a href="/albums/scene_Japan">*高市早苗我日你的*</a>
-![1766290223773_1765979639148.webp](https://c147721a.kunblog--cloudflare-imgbed.pages.dev/file/苏州/1766290223773_1765979639148.webp)
+![1766290223773_1765979639148.webp](https://imgbed.haokun.me/file/苏州/1766290223773_1765979639148.webp)
+
+## 食
+  
+<a href="/albums/food">*好吃好吃好吃好吃好吃*</a>
+![1766292550083_1765978680755.webp](https://imgbed.haokun.me/file/%E9%A3%9F/1766292550083_1765978680755.webp)
