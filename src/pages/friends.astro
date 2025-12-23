@@ -45,7 +45,14 @@ const allTags = Array.from(new Set(friendsList.flatMap((item) => item.tags)));
           {i18n(I18nKey.friends)}
         </h1>
         <p class="text-lg text-black/60 dark:text-white/60">
-          {i18n(I18nKey.friendsSubtitle)}
+          欢迎互换友链，
+          <a 
+            href="https://github.com/renleihaokun/renleihaokun-blog/tree/master/src/data/friends" 
+            target="_blank" 
+            class="hover:text-[var(--primary)] hover:underline transition-colors"
+          >
+            在这里提交
+		  </a>
         </p>
 			</div>
 
