@@ -2,7 +2,7 @@
 title: 让CF代理的网站吃上优选节点
 published: 2025-12-22
 pinned: false
-description: 介绍A，cnam接入的CF流量进行cdn节点的优选
+description: 介绍A，cname接入的CF流量进行cdn节点的优选
 tags: [cloudflare, Network]
 category: Network
 licenseName: "CC BY 4.0"
