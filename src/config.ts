@@ -234,7 +234,13 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
+		{
+			name: "Gallery",
+			url: "/albums/",
+			icon: "material-symbols:photo-library",
+		},
 		{
 			name: "Links",
 			url: "/links/",
@@ -269,11 +275,11 @@ export const navBarConfig: NavBarConfig = {
 				//	url: "/diary/",
 				//	icon: "material-symbols:book",
 				//},
-				{
-					name: "Gallery",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
+				//{
+				//	name: "Gallery",
+				//	url: "/albums/",
+				//	icon: "material-symbols:photo-library",
+				//},
 				{
 					name: "Devices",
 					url: "devices/",
@@ -284,21 +290,14 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
-				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "Friends",
-					url: "/friends/",
-					icon: "material-symbols:group",
-				},
-			],
+			url: "/about/",
+			icon: "material-symbols:person",
 		},
+		{
+			name: "Friends",
+			url: "/friends/",
+			icon: "material-symbols:group",
+		}
 		//{
 		//	name: "Others",
 		//	url: "#",
