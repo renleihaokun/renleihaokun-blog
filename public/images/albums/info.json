@@ -1,0 +1,42 @@
+{
+  "mode": "external",
+  "title": "铁道",
+  "description": "这是铁",
+  "cover": "https://imgbed.haokun.me/file/1766760316721_1765979684407.webp",
+  "location": "地球",
+  "tags": ["火车","铁路"],
+  "layout": "Grid",
+  "columns": 4,
+  "photos": [
+  {
+    "src": "https://imgbed.haokun.me/file/1766760316721_1765979684407.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760314364_1765979033519.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760315211_1765979033595.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760317390_1765979033647.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760320006_1765979638515.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760322846_1765979638616.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760320087_1765979638981.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760323041_1765979639075.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760320621_1765979639214.webp"
+  },
+  {
+    "src": "https://imgbed.haokun.me/file/1766760324737_1765979639390.webp"
+  }
+]
+}
