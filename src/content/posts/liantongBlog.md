@@ -1,6 +1,6 @@
 ---
 title: CF静态博客联通网络访问太慢的一种曲线救国的方案
-published: 2026-1-2
+published: 2026-01-02
 pinned: false
 description: 介绍一种能使联通访问Pages快些的方法
 tags: [cloudflare, Network，EdgeOne]
@@ -8,8 +8,8 @@ category: Network
 licenseName: "CC BY 4.0"
 author: renleihaokun
 draft: false
-date: 2026-1-2
-pubDate: 2026-1-2
+date: 2026-01-02
+pubDate: 2026-01-02
 permalink: "liantongBlog"
 image: "https://imgbed.haokun.me/file/1767337314334_image.png"
 ---
