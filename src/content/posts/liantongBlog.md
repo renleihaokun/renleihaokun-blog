@@ -3,7 +3,7 @@ title: CF静态博客联通网络访问太慢的一种曲线救国的方案
 published: 2026-01-02
 pinned: false
 description: 介绍一种能使联通访问Pages快些的方法
-tags: [cloudflare, Network，EdgeOne]
+tags: [cloudflare, Network, EdgeOne]
 category: Network
 licenseName: "CC BY 4.0"
 author: renleihaokun
@@ -24,7 +24,7 @@ image: "https://imgbed.haokun.me/file/1767337314334_image.png"
 ![image.png](https://imgbed.haokun.me/file/1767337314334_image.png)  
 
 ### 那么就要引出今天的主角了：**EdgeOne Pages！**  
-注意到，联通连EO比CF优选快
+注意到，联通连EO比CF优选快  
 简而言之言而总之，就是把联通的流量分流到EO的Pages，这样对联通能比CF快不少（~至少都能解析成功~），电信移动倒是没啥区别。  
 
 ### 那为什么不用他的CDN功能呢？  
