@@ -19,10 +19,10 @@
 
 
 
-/* 导入 HYRunYuan-65S 字体 */
+/* 导入 DouyinSansBold 字体 */
 @font-face {
-	font-family: "HYRunYuan-65S";
-	src: url("/assets/font/HYRunYuan-65S.woff2") format("woff2");
+	font-family: "DouyinSansBold";
+	src: url("/assets/font/DouyinSansBold.woff2") format("woff2");
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
