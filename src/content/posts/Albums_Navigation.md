@@ -7,7 +7,7 @@ tags: [Album, Navigation]
 category: navigation
 licenseName: "CC BY 4.0"
 author: renleihaokun
-draft: false
+draft: true
 date: 2025-12-17
 pubDate: 2025-12-17
 permalink: "Albums_Navigation"
