@@ -271,21 +271,21 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				{
+				/*{
 					name: "Anime",
 					url: "/anime/",
 					icon: "material-symbols:movie",
 				},
-				//{
-				//	name: "Diary",
-				//	url: "/diary/",
-				//	icon: "material-symbols:book",
-				//},
-				//{
-				//	name: "Gallery",
-				//	url: "/albums/",
-				//	icon: "material-symbols:photo-library",
-				//},
+				{
+					name: "Diary",
+					url: "/diary/",
+					icon: "material-symbols:book",
+				},
+				{
+					name: "Gallery",
+					url: "/albums/",
+					icon: "material-symbols:photo-library",
+				},*/
 				{
 					name: "Devices",
 					url: "devices/",
@@ -345,6 +345,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/renleihaokun",
 		},
+		{
+			name:"Steam",
+			icon:"fa6-brands:steam".
+			url:"https://steamcommunity.com/profiles/76561199093441277"
+		}
 	],
 };
 
