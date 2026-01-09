@@ -125,13 +125,7 @@ if (!album) {
     const albumImages = document.querySelectorAll('.moment-images img, .photo-gallery img');
     console.log('相册图片数量:', albumImages.length);
     
-    // 预加载图片以确保正确显示
-    albumImages.forEach((img) => {
-      if (img instanceof HTMLImageElement) {
-        const preloadImg = new Image();
-        preloadImg.src = img.src;
-      }
-    });
+    // The preloading logic has been removed to allow native lazy loading to work.
   });
 </script>
 
