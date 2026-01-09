@@ -85,6 +85,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.acofork.com/",
 		tags: ["blog"],
 	},
+	{
+		id: 10,
+		title: "摇月的魔法工坊",
+		imgurl: "https://YuzukiAtelier.com/head.webp",
+		desc: "记录了一些现代魔法的咏唱技法",
+		siteurl: "https://YuzukiAtelier.com",
+		tags: ["blog"],
+	},
 ];
 
 // 获取所有友情链接数据
