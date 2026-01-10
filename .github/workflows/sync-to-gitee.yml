@@ -1,33 +1,31 @@
-name: Sync to Gitee (No SSH)
+name: Sync to Gitee (HTTPS Only)
 
 on:
   push:
-    branches: [ main, master ]  # 当推送到 main 或 master 时触发
+    branches: [ master ]
+  workflow_dispatch: # 允许手动点击按钮触发
 
 jobs:
-  run:
-    name: Sync-GitHub-to-Gitee
+  git-mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Mirror the Github organization repos to Gitee.
-        uses: Yikun/hub-mirror-action@master
+      # 1. 检出代码（必须下载完整历史，否则无法镜像）
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          # 你的 GitHub 用户名
-          src: github/renleihaokun
-          # 你的 Gitee 用户名
-          dst: gitee/renleihaokun
+          fetch-depth: 0
+
+      # 2. 直接使用 Git 命令推送到 Gitee
+      - name: Push to Gitee
+        run: |
+          # 配置 Gitee 远程地址，其中 ${{ secrets.GITEE_TOKEN }} 会自动读取你设置的 Token
+          # 注意：这里使用了 github.repository 变量，它会自动获取 "你的GitHub用户名/仓库名"
+          # 如果你的 Gitee 用户名和 GitHub 不一样，请手动修改下面的 URL
           
-          # 刚才设置的 Secret，用于验证身份
-          dst_token: ${{ secrets.GITEE_TOKEN }}
+          git remote add gitee "https://renleihaokun:${{ secrets.GITEE_TOKEN }}@gitee.com/renleihaokun/${{ github.event.repository.name }}.git"
           
-          # 【关键设置】这里设置为 https，就不需要 SSH Key 了
-          clone_style: "https"
+          # 这是一个保险措施，防止 Gitee 拒绝不相关的提交历史
+          # 如果是第一次同步，建议先手动在 Gitee 建个空仓库，或者加上 -f 强制覆盖
           
-          # 如果是同步单个仓库，填写仓库名称（如果留空则会同步该账号下所有仓库）
-          # static_list: "你的仓库名" 
-          
-          # 强制更新，防止因为历史记录不一致导致失败
-          force_update: true
-          
-          # 开启调试模式（可选，出错时方便看日志）
-          debug: true
+          echo "正在推送到 Gitee..."
+          git push --mirror gitee
