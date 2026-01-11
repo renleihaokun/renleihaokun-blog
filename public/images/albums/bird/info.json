@@ -2,12 +2,27 @@
 	"mode": "external",
 	"title": "鸟图",
 	"description": "嘻嘻，是鸟",
-	"cover": "https://imgbed.haokun.me/file/1765894176034_DSC01824-已增强-NR.jpg",
+	"cover": "https://imgbed.haokun.me/file/1768116256419_DSC02818-已增强-NR-1.webp",
 	"location": "地球",
 	"tags": ["鸟", "景"],
 	"layout": "Grid",
 	"columns": 4,
 	"photos": [
+		{
+			"src": "https://imgbed.haokun.me/file/1768116248711_DSC02899-已增强-NR.webp"
+		},
+		{
+			"src": "https://imgbed.haokun.me/file/1768116244670_DSC02892-已增强-NR.webp"
+		},
+		{
+			"src": "https://imgbed.haokun.me/file/1768116255332_DSC02957_1.webp"
+		},
+		{
+			"src": "https://imgbed.haokun.me/file/1768116253981_DSC02981-已增强-NR.webp"
+		},
+		{
+			"src": "https://imgbed.haokun.me/file/1768116256419_DSC02818-已增强-NR-1.webp"
+		},
 		{
 			"src": "https://imgbed.haokun.me/file/1767938449825_DSC02800-已增强-NR_1.webp"
 		},
