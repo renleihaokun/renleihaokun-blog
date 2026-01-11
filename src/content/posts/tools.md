@@ -16,7 +16,7 @@ permalink: "tools"
 # 谁问你了  
 <a href="https://swnl.haokun.me">*谁问你了* </a>  
 # Windows微信多开  
-<a href="https://wx2.haokun.me">*虽然不是很好用* </a>  
+<a href="https://wx.haokun.me">*虽然不是很好用* </a>  
 #   CF炸了
 <a href="https://error.haokun.me">*没错，全都炸了* </a>  
 # 查看当前网络信息  
